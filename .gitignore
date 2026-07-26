@@ -8,8 +8,8 @@ test_snapshots/
 *.profraw
 **/*.profraw
 /docs/superpowers/
+temp_auto_push.bat
 /.remember/
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -19,3 +19,5 @@ verify_preservation_baseline.exe
 verify_preservation_baseline.pdb
 *.wasm
 .aider*
+.gitignore
+branch_structure.json
