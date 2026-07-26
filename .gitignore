@@ -1,15 +1,14 @@
 /target
 Cargo.lock
 **/*.rs.bk
-.env
 /coverage
 test_snapshots/
 *.proptest-regressions
 *.profraw
 **/*.profraw
 /docs/superpowers/
+temp_auto_push.bat
 /.remember/
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -19,3 +18,7 @@ verify_preservation_baseline.exe
 verify_preservation_baseline.pdb
 *.wasm
 .aider*
+.gitignore
+branch_structure.json
+config.bat
+node_modules
